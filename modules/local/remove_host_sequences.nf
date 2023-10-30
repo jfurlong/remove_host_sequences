@@ -1,6 +1,6 @@
 process REMOVE_HOST_SEQUENCES {
     tag "$meta.id"
-    label 'process_medium'
+    label 'process_high'
 
     container "quay.io/biocontainers/hostile:0.1.0--pyhdfd78af_0"
 

@@ -54,7 +54,7 @@ include { HOSTILE } from './workflows/hostile'
 //
 // WORKFLOW: Run main nf-core/hostile analysis pipeline
 //
-workflow NFCORE_HOSTILE {
+workflow REMOVE_HOST {
     HOSTILE ()
 }
 
@@ -69,7 +69,7 @@ workflow NFCORE_HOSTILE {
 // See: https://github.com/nf-core/rnaseq/issues/619
 //
 workflow {
-    NFCORE_HOSTILE ()
+    REMOVE_HOST ()
 }
 
 /*
