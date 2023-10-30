@@ -1,4 +1,4 @@
-remove_host_sequences is a simple Nextflow workflow that removes human host sequences from a csv input of fastq files. 
+remove_host_sequences is a simple Nextflow workflow that removes human host sequences from a csv input of fastq files.  It is a basic wrapper for [Hostile](https://github.com/bede/hostile).
 
 ## Usage
 
